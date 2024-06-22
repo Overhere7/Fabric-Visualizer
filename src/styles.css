@@ -1,0 +1,141 @@
+/* Global styles
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.app {
+    text-align: center;
+    max-width: 800px;
+    margin: 20px;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.image-upload {
+    margin: 20px 0;
+    border: 2px dashed #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    background: #fafafa;
+    cursor: pointer;
+}
+
+.image-upload p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.image-preview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-preview img {
+    max-width: 100%;
+    margin: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive styles */
+/* @media (min-width: 600px) {
+    .image-preview {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .image-preview .original-images,
+    .image-preview .processed-image {
+        width: 45%;
+    }
+} */ 
+
+
+/* Global styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.app {
+    text-align: center;
+    max-width: 800px;
+    margin: 20px;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.upload-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.image-upload {
+    flex: 1;
+    margin: 10px;
+    border: 2px dashed #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    background: #fafafa;
+    cursor: pointer;
+}
+
+.image-upload p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.image-preview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-preview img {
+    max-width: 100%;
+    margin: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive styles */
+@media (min-width: 600px) {
+    .image-preview {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .image-preview .original-images,
+    .image-preview .processed-image {
+        width: 45%;
+    }
+}
+
