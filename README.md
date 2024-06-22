@@ -1,71 +1,67 @@
-# Getting Started with Create React App
+# Fabric Visualizer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Screenshot 2024-06-22 at 8 17 28 AM](https://github.com/Overhere7/Fabric-Visualizer/assets/110075716/006bc871-d0e0-4b6c-bcd8-dd131b53a72f) ![Screenshot 2024-06-22 at 8 18 10 AM](https://github.com/Overhere7/Fabric-Visualizer/assets/110075716/42196b5a-180e-41b4-91e2-fb6b1c2b27cf)
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The Fabric Visualizer is a dynamic web application built with React.js that empowers users to visualize and experiment with fabric designs on virtual garments. Whether you're an interior designer envisioning upholstery options or a fashion enthusiast exploring new dress patterns, this tool offers a seamless experience to bring your creative ideas to life.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Key Features
 
-### `npm test`
+### Image Upload
+- **Easy Upload**: Upload images of a human wearing a dress and a fabric swatch effortlessly.
+- **Drag-and-Drop**: Simply drag and drop your images or click to select them for upload.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Fabric Application
+- **Visual Simulation**: Seamlessly overlay fabric patterns onto the dress image to preview how different fabrics would look in real life.
+- **Interactive Interface**: Intuitively interact with the application to explore various fabric options and combinations.
 
-### `npm run build`
+### Preview
+- **Side-by-Side Comparison**: View the original dress image alongside the processed image with the fabric overlay for direct comparison.
+- **Instant Feedback**: Instantly see the impact of fabric choices on the dress design to make informed decisions.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### User Interface
+- **Sleek and Responsive**: Designed with a modern and responsive user interface for smooth navigation and user experience.
+- **User-Friendly**: Optimized for ease of use, ensuring that users can quickly upload images and visualize fabric combinations without technical hassle.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Approach
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Technologies Used
+- **React.js**: Frontend framework for building interactive user interfaces.
+- **HTML/CSS**: Structuring and styling the application for a polished look.
+- **Canvas API**: Utilized for advanced image processing tasks such as overlaying fabric patterns on dress images.
 
-### `npm run eject`
+### Challenges Faced
+- **Image Processing**: Implementing realistic fabric overlays required meticulous handling of image data and pixel manipulation techniques.
+- **State Management**: Ensuring seamless synchronization between uploaded images and processed outputs posed initial challenges in state handling.
+- **Performance Optimization**: Optimizing image processing algorithms to maintain application responsiveness while handling large image files.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## How to Run the Application
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To run this application locally, follow these straightforward steps:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/your-username/fabric-visualizer.git
+   cd fabric-visualizer
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## How to Run
 
-## Learn More
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/your-username/fabric-visualizer.git
+   cd fabric-visualizer
+## Install Dependencies
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm install
+npm start
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Open in Browser:** Navigate to [http://localhost:3000](http://localhost:3000) in your web browser to use the Fabric Visualizer.
 
-### Code Splitting
+- **Feedback and Contributions:** We welcome your feedback! If you have suggestions, encounter issues, or want to contribute, please submit an issue or fork the repository and create a pull request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Fabric-Visualizer
